@@ -21,7 +21,7 @@ class {{cookiecutter.plugin_class}}(ida_idaapi.plugin_t):
         addon.name = "{{cookiecutter.plugin_name}}"
         addon.producer = "{{cookiecutter.author_name}}"
         addon.url = "https://github.com/{{cookiecutter.author_name}}/{{cookiecutter.plugin_name}}"
-        addon.version = "{{cookiecutter.plugin_version}}"
+        addon.version = "{{cookiecutter.version}}"
         ida_kernwin.register_addon(addon)
         return ida_idaapi.PLUGIN_KEEP
 
